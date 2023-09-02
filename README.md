@@ -1,8 +1,8 @@
 ![Group 1 (2)](https://github.com/Yczar/brache/assets/32166619/84193391-c33b-4a5f-8646-5ffd0be1dd31)
 
-# 🌲 Branche
+# 🌲 Brache
 
-Hello there! 🚀 Welcome to **Branche**, your new favorite Dart library for all things graphics! Let's paint the digital world, one shape at a time. 🎨
+Hello there! 🚀 Welcome to **Brache**, your new favorite Dart library for all things graphics! Let's paint the digital world, one shape at a time. 🎨
 
 ## 🌟 Features
 
@@ -14,13 +14,13 @@ Hello there! 🚀 Welcome to **Branche**, your new favorite Dart library for all
 
 ## 🚀 Getting Started
 
-1. **Installation** 📦: Simply run `dart pub get branche` and let the magic begin!
-2. **Create Your First Project** 🎉: With our CLI, just do a `branche create my_first_project`.
+1. **Installation** 📦: Simply run `dart pub get brache` and let the magic begin!
+2. **Create Your First Project** 🎉: With our CLI, just do a `brache create my_first_project`.
 3. **Dive In**: Check out our [documentation](#) or examples to kick things off!
 
 ## 🤝 Contributing
 
-Love Branche as much as we do? 😍 Jump in! Check out our [contributing guide](#) to get started.
+Love Brache as much as we do? 😍 Jump in! Check out our [contributing guide](#) to get started.
 
 ## 🔗 Links & Resources
 
