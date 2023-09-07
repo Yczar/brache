@@ -1,0 +1,55 @@
+---
+title: Introduction
+description: An overview of the Brache framework.
+---
+
+import { CodeBlock } from "@theme/CodeBlock";
+
+# Brache
+
+Welcome to the Brache framework documentation! 🎉
+
+Brache is a modern, intuitive framework for building graphical applications. Whether you're looking to draw shapes, design complex UI components, or animate graphical elements, Brache has got you covered.
+
+## Why Brache?
+
+There are numerous graphics libraries and frameworks out there, so why choose Brache?
+
+- **Simplicity**: Designed with developers in mind, Brache provides a straightforward API to get you started quickly.
+- **Flexibility**: From basic shapes to advanced animations, Brache adapts to your needs.
+- **Performance**: Optimized for smooth and efficient rendering.
+
+## Core Concepts
+
+Brache is built around a few key concepts:
+
+- **$Component**: The building block for any graphical element in Brache.
+- **Scene**: Represents a collection of components.
+- **Renderer**: Manages the process of drawing your components onto the screen.
+
+<CodeBlock>
+{`
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends Brache {
+@override
+void build() {
+Circle circle = Circle(
+radius: 50,
+x: 100,
+y: 250,
+color: 'red',
+);
+
+    scene.add(circle);
+    scene.render();
+
+}
+}
+`}
+
+</CodeBlock>
+
+Stay tuned and explore the subsequent sections to delve deeper into what you can achieve with Brache.
