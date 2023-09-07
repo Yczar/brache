@@ -1,0 +1,45 @@
+---
+title: Understanding Brache Components
+description: Dive into the essence of Brache's graphical components and how they form the basis of all visual elements.
+next: /core/renderer
+---
+
+# Brache's Graphical Components
+
+Every element you see in a Brache-powered application, from basic shapes to intricate designs, is constructed using the power of Brache's component system.
+
+![Graphical Components Image](./path-to-graphical-components-image.png)
+
+## The Essence of a Component
+
+At its core, a Brache component represents an abstract graphical element defined by its position (`x` and `y` coordinates) and its color. This abstraction provides a consistent foundation upon which more specific graphical elements can be built.
+
+```dart
+abstract class $Component<T extends $Component<T>> {
+  //... (Your provided code goes here for brevity)
+}
+```
+
+## Drawing with Components
+
+Components come with an abstract `draw` method, requiring specific components to define their own drawing logic based on the provided renderer. This offers flexibility in how each component is visually represented.
+
+For instance, a `Circle` in Brache is represented as:
+
+```dart
+class Circle extends $Component<Circle> {
+  //... (Your provided Circle code here for brevity)
+}
+```
+
+The `Circle` component extends the base `$Component`, adding a `radius` property specific to circles and implementing its drawing logic using the provided renderer.
+
+## Components: Beyond Simple Shapes
+
+While the `Circle` is a fundamental example, Brache's component system allows for the creation of a wide range of visual elements, from basic geometric shapes to more intricate custom designs. All components inherently have the ability to be positioned, colored, drawn, and even duplicated with modified properties using the `copyWith` method.
+
+## Moving Forward
+
+Components form the backbone of Brache's visual capabilities. Their modular design ensures that developers can create a rich set of custom graphical elements tailored to their specific needs.
+
+With the foundational knowledge of components in place, we can explore how Brache uses renderers to draw these components on various platforms and mediums.
