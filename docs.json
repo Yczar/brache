@@ -1,44 +1,35 @@
 {
-    "title": "Brache Documentation",
-    "description": "Comprehensive documentation for the Brache framework.",
-    "favicon": "/assets/favicon.ico",
-    "logo": "/assets/logo.png",
-    "theme": {
-      "color": "#34a7f1", 
-      "font": "Arial, sans-serif"
-    },
-    "homepage": "/index.mdx",
-    "navigation": [
-      {
-        "label": "Introduction",
-        "path": "/introduction.mdx"
-      },
-      {
-        "label": "Getting Started",
-        "path": "/getting-started.mdx"
-      },
-      {
-        "label": "Components",
-        "path": "/components.mdx"
-      },
-      {
-        "label": "Animations",
-        "path": "/animations.mdx"
-      },
-      {
-        "label": "API Reference",
-        "path": "/api.mdx"
-      }
+    "name": "Brache",
+    "anchors": [
+      { "title": "Discord", "icon": "discord", "link": "https://discord.gg/YOUR_DISCORD_LINK" },
+      { "title": "Playground", "icon": "code", "link": "https://your-brache-playground-link.com" }
     ],
-    "footerLinks": [
-      {
-        "label": "GitHub",
-        "url": "https://github.com/yczar/brache"
-      },
-      {
-        "label": "Twitter",
-        "url": "https://twitter.com/czarify"
-      }
-    ]
+    "sidebar": [
+      ["\uD83D\uDCD6 Overview", "/"],
+      ["\uD83D\uDEEB Quick Start", "/quick-start"],
+      ["\uD83E\uDD4A Brache vs Other Frameworks", "/brache-vs-others"],
+      ["\uD83D\uDD79 Brache CLI", "/cli"],
+      ["Core Concepts", [
+        ["\uD83E\uDDF1 Component System", "/core/components"],
+        ["\uD83D\uDC7E App & Document", "/core/app"],
+        ["\uD83D\uDD8D Working with Graphics", "/core/graphics"],
+        ["\uD83C\uDFA8 Styling & Themes", "/core/styling"],
+        ["\uD83E\uDDED Routing & Navigation", "/core/routing"]
+      ]],
+      ["Advanced Concepts", [
+        ["\uD83C\uDFDD Advanced Graphics", "/advanced/graphics"],
+        ["\uD83E\uDE90 Backend Integration", "/advanced/backend"],
+        ["\uD83D\uDCCE Platform Specifics", "/advanced/platform"]
+      ]],
+      ["Ecosystem", [
+        ["\uD83D\uDDBC️ Embedding with Other Tools", "/eco/embedding"],
+        ["\uD83C\uDF0A State Management", "/eco/state"],
+        ["\uD83C\uDF2C️ UI Kits & Libraries", "/eco/libraries"],
+        ["\uD83D\uDCDA Third-Party Packages", "/eco/packages"],
+        ["\uD83D\uDC99 Contributing to Brache", "/eco/contributing"]
+      ]],
+      ["\uD83E\uDDEA Testing & Debugging", "/testing"]
+    ] 
+    
   }
   
