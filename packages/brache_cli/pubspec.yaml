@@ -1,6 +1,6 @@
 name: brache_cli
 description: My new Dart CLI package
-version: 0.0.1
+version: 0.0.1-beta
 publish_to: none
 
 environment:
