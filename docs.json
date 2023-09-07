@@ -7,6 +7,7 @@
       "color": "#34a7f1", 
       "font": "Arial, sans-serif"
     },
+    "homepage": "/index.mdx",
     "navigation": [
       {
         "label": "Introduction",
