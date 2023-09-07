@@ -1,0 +1,43 @@
+{
+    "title": "Brache Documentation",
+    "description": "Comprehensive documentation for the Brache framework.",
+    "favicon": "/assets/favicon.ico",
+    "logo": "/assets/logo.png",
+    "theme": {
+      "color": "#34a7f1", 
+      "font": "Arial, sans-serif"
+    },
+    "navigation": [
+      {
+        "label": "Introduction",
+        "path": "/introduction.mdx"
+      },
+      {
+        "label": "Getting Started",
+        "path": "/getting-started.mdx"
+      },
+      {
+        "label": "Components",
+        "path": "/components.mdx"
+      },
+      {
+        "label": "Animations",
+        "path": "/animations.mdx"
+      },
+      {
+        "label": "API Reference",
+        "path": "/api.mdx"
+      }
+    ],
+    "footerLinks": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/yczar/brache"
+      },
+      {
+        "label": "Twitter",
+        "url": "https://twitter.com/czarify"
+      }
+    ]
+  }
+  
