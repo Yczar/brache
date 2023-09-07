@@ -12,6 +12,7 @@
       ["Core Concepts", [
         ["\uD83E\uDDF1 Component System", "/core/components"],
         ["\uD83D\uDC7E App & Document", "/core/app"],
+        ["\uD83D\uDD8C Renderer", "/core/renderer"],
         ["\uD83D\uDD8D Working with Graphics", "/core/graphics"],
         ["\uD83C\uDFA8 Styling & Themes", "/core/styling"],
         ["\uD83E\uDDED Routing & Navigation", "/core/routing"]
